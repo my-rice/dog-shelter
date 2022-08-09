@@ -27,17 +27,25 @@ Candidates are provided with the following files which must not be modified:
 ## Tasks
 The candidate is required to write the canile.c file with the following functions besides main:
 
+
 > int create_list_races (TTree tree, char list [] [MAXCHAR]);
+
 The function creates an array of strings that represents the list of all breeds present in the dog shelter. The breed is not a key therefore in the dog shelter there will be more dogs of the same breed, however the function must return an array with only one occurrence per breed. The function returns the fill of the array and the list array
 
+
 > void print_races (char list [] [MAXCHAR], int fill);
+
 The function calculates the number of dogs of a given breed present in the dog shelter.
 A RECURSIVE IMPLEMENTATION IN QUEUE IS REQUIRED ON THE BASIS OF DIVIDE ET IMPERA
 
+
 > TNode * search_fat_dog (TTree tree);
+
 The function searches for the dog with the lowest weight / quantity ratio, i.e. the dog that eats more than its weight.
 A RECURSIVE IMPLEMENTATION IS REQUIRED ON THE BASIS OF DIVIDE ET IMPERA
 
+
 > void print_list (TTree tree);
+
 Print the information of all the dogs on the list.
 A RECURSIVE IMPLEMENTATION IS REQUIRED ON THE BASIS OF DIVIDE ET IMPERA
